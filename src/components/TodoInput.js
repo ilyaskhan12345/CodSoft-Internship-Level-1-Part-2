@@ -32,7 +32,7 @@ const TodoInput = () => {
  
     const deleteTask = (index) => {
       const newTasks = [...tasks];
-      // console.log(index);
+    
          newTasks.splice(index, 1);
       setTasks(newTasks);
     };
