@@ -1,13 +1,172 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  
+  background-color: aqua;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80vh;
+  
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: azure;
+}
+
+.btn {
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  padding: 5px;
+  background-color: dodgerblue;
+  color: aliceblue;
+  border-color: transparent;
+}
+
+.btn:hover {
+  color: black;
+  background-color: chartreuse;
+
+  transition: background-color 0.3s ease;
+}
+
+.input-field {
+ 
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+}
+
+
+.shad{
+  box-shadow: 0 0 10px rgba(0, 0, 0, 10);
+ 
+  padding:  6rem 7rem;
+  margin-top: 25px;
+  border-radius: 8px;
+  background-color: blueviolet;
+  height: 90vh;
+}
+
+.list{
+  color: antiquewhite;
+}
+
+.bin{
+  font-size: 25px;
+  margin-right: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.bin:hover{
+  color: red;
+  transition: 0.3s;
+ 
+}
+
+.list{
+  font-size: 25px;
+  padding: 5px;
+  margin: 0 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+}
+
+button{
+ margin-left: 10px;
+}
+
+.clr{
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
+  padding: 5px;
+  background-color: dodgerblue;
+  color: aliceblue;
+  border-color: transparent;
+}
+
+.clr:hover{
+  background-color: red;
+  transition: background-color 0.5s ease;
+ 
+}
+
+.edit{
+  padding-left: 15px;
+  cursor: pointer;
+}
+
+.edit:hover{
+  color: greenyellow;
+  transition: color 0.3s ease ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .shad {
+    padding: 1rem;
+    margin: 3rem;
+    padding-bottom: 5rem;
+    
+  }
+
+  .input-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn,
+  .clr {
+    margin: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .heading {
+    font-size: 1.5rem;
+  }
+
+  .list {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+
+  .bin {
+    font-size: 20px;
+    margin: 0;
+    margin-left: 5px;
+  }
 }
