@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/CodSoft-Internship-Level-1-Part-2/static/css/main.638c642f.css",
+    "main.js": "/CodSoft-Internship-Level-1-Part-2/static/js/main.29144efc.js",
+    "index.html": "/CodSoft-Internship-Level-1-Part-2/index.html",
+    "main.638c642f.css.map": "/CodSoft-Internship-Level-1-Part-2/static/css/main.638c642f.css.map",
+    "main.29144efc.js.map": "/CodSoft-Internship-Level-1-Part-2/static/js/main.29144efc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.638c642f.css",
+    "static/js/main.29144efc.js"
+  ]
+}
